@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Slider container */
+.slider {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Image display */
+#slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Caption styling */
+#slider-caption {
+  padding: 15px;
+  font-size: 1.2rem;
+  background: #fff;
+  margin: 0;
+}
+
+/* Navigation buttons */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #00000080;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.nav:hover {
+  background: #000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #slider-caption {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .nav {
+    font-size: 20px;
+    padding: 8px 12px;
+  }
+}
