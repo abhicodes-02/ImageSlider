@@ -8,6 +8,8 @@ This is a simple and responsive Image Slider using HTML, CSS, and JavaScript.
 2. Extract the ZIP file if downloaded.
 3. Open `index.html` in any modern browser (Chrome, Firefox, Edge, etc.)
 
+## Live Demo - (https://abhicodes-02.github.io/ImageSlider/)
+
 ## 📁 Project Structure
 
 - `index.html` – Main file that renders the image slider
